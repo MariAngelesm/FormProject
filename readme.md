@@ -22,7 +22,7 @@ This is a simple interactive registration form, designed to demonstrate how to m
 ### 1. Clone the project
 
 ```bash
-git clone xxxx
+git clone https://github.com/MariAngelesm/FormProject.git
 ```
 
 ### 2. Open your terminal and navigate to the project directory:
