@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Register</title>
+</head>
+
+<body>
+    <!-- Form container. 
+     Input fields for collecting  user's data-->
+    <form class="form" id="userForm">
+        <h2 class="title">Register</h2>
+        <div class="flex">
+            <label for="userName">
+                <input class="input" type="text" placeholder="" required="" id="userName" autocomplete="off">
+                <span>Your Name</span>
+            </label>
+        </div>
+        <div class="flex">
+            <label for="userAge">
+                <input class="input" type="text" placeholder="" required="" id="userAge" autocomplete="off">
+                <span>Your Age</span>
+            </label>
+        </div>
+        <!-- Buttons to submit or clear User data -->
+        <button type="button" id="saveBtn"   class="submit">Submit data</button>
+        <button type="button" id="clearBtn" class="submit">Remove data</button>
+        <!-- Output section for showing saved data -->
+        <div id="output"></div>
+        <!-- Paragraph to display session interaction count -->
+        <p id="interactionCount"></p>
+    </form>
+<script src="main.js"></script>
+</body>
+
+</html>
